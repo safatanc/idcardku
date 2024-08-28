@@ -4,7 +4,7 @@
 </script>
 
 <div>
-	<div class="fixed top-0 lef-0 w-full">
+	<div class="fixed top-0 lef-0 w-full z-50 backdrop-blur-3xl">
 		<Navbar />
 	</div>
 	<slot />
