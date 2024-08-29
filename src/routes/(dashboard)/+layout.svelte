@@ -5,10 +5,10 @@
 
 <div>
 	<div class="flex">
-		<div class="sticky">
+		<div class="fixed">
 			<Sidebar />
 		</div>
-		<div>
+		<div class="ml-0 md:ml-[200px] min-h-screen">
 			<slot />
 		</div>
 	</div>

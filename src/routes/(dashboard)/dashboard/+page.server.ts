@@ -1,6 +1,14 @@
 import { ClientResponseError } from 'pocketbase';
-import type { Actions } from './$types';
+import type { Actions, PageServerLoad } from './$types';
 import { pb } from '$lib/service/pocketbase/pocketbase';
+import type { User } from '$lib/model/user';
+
+export const load: PageServerLoad = ({ params }) => {
+	const user = pb.authStore.model as User;
+	return {
+		user: user
+	};
+};
 
 export const actions: Actions = {
 	logout: async ({ request }) => {
