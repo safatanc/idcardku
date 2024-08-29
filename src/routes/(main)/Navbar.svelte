@@ -10,7 +10,7 @@
 		<a href="/">Home</a>
 		<a href="/company">Company</a>
 		<a href="/dashboard">
-			<Button type="FILL">Get Started</Button>
+			<Button styleType="FILL">Get Started</Button>
 		</a>
 	</div>
 </nav>

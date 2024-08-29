@@ -15,10 +15,10 @@
 			</div>
 			<div class="mt-5">
 				<a href="/dashboard">
-					<Button type="FILL">Get Started</Button>
+					<Button styleType="FILL">Get Started</Button>
 				</a>
 				<a href="#showcase">
-					<Button type="TRANSPARENT">Learn More</Button>
+					<Button styleType="TRANSPARENT">Learn More</Button>
 				</a>
 			</div>
 		</div>
